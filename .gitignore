@@ -1,0 +1,36 @@
+**/.vscode/
+**/__pycache__/
+**/__init__.py/
+
+# ignore extensions in all directories
+**/*.log
+**/*.png
+
+**/*.keras
+
+# ignore all files and its subdirectories
+venv/**
+a-tests/**
+assignment-5/results/**
+assignment-6/results/**
+cifar10-photo-classification/results/**
+reinforcement-learning-robotic-navigation/results/**
+reinforcement-learning-robotic-navigation/all_results/**
+reinforcement-learning-robotic-navigation/visualization/**
+travelingadmin/**
+
+# ignore all files inside a folder
+
+# ignore file in a specific folder
+assignment-4/test.py
+
+##############################################################
+
+# add the .gitignore file to git
+#       git add .gitignore
+#       git commit -m "Add .gitignore file to ignore specific files"
+
+# check if the files are ignored
+#       git status
+# if they are still being tracked, untrack
+#       git rm --cached <file_path>
